@@ -22,3 +22,8 @@ venv/
 # Editors
 .vscode/
 .idea/
+
+# Swift build & distribution
+.build/
+dist/
+*.app/
