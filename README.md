@@ -63,4 +63,4 @@ Do not commit private/customer `.indd` or `.pdf` documents, extracted text, gene
 
 ## Licence
 
-A licence has not been selected yet. Until one is added, do not assume the repository is licensed for reuse.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
