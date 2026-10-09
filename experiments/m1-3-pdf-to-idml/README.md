@@ -7,13 +7,21 @@ This experimental generator reads a PDF (not INDD) and creates a minimal IDML ca
 ```bash
 python3 -m pip install pymupdf
 python3 experiments/m1-3-pdf-to-idml/pdf_to_idml_candidate.py /path/to/reference.pdf --out ./out/candidate.idml
+python3 tests/validation/test_m1_3_generator.py
 ```
 
 The validation report defaults to `candidate.validation.json`.
+
+## What it checks
+
+- IDML ZIP layout and uncompressed `mimetype` entry first.
+- XML well-formedness and designmap references.
+- One text frame and one story per page.
+- A synthetic smoke test of the package structure.
 
 ## Limitations
 
 - Does not parse `.indd` files and is not an INDD → IDML converter.
 - Uses PDF-extracted text only; it does not reconstruct images, typography, styles, tables, layers, original text frames, or linked stories.
 - One frame per page deliberately loses original layout. This is an editability/reflow experiment, not a visual-fidelity attempt.
-- ZIP/XML validation does not prove that the output opens in InDesign. Application validation remains required.
+- ZIP/XML validation does not prove that the output opens in InDesign. Application open/edit/reflow testing remains required.
