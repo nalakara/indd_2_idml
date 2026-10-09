@@ -18,8 +18,8 @@ The current prototypes are separate research tools. **No end-to-end INDD → IDM
 | M1 | Compare PDF tokens with printable strings in INDD bytes | Audit prototype completed; token overlap is not a fidelity metric |
 | M1.1 | Generate a minimal IDML package with a multi-paragraph story and text frame | Prototype generated; not verified in InDesign-compatible software |
 | M1.2 | Estimate text regions and paragraph groups from PDF geometry | Heuristic prototype completed |
-| M1.3 | Generate a page/story/frame IDML candidate from PDF text | Generator and synthetic structural test committed; app-open/edit/reflow validation pending |
-| M1.4 | Verify opening, text editing, and reflow in IDML-capable software | Pending |
+| M1.3 | Generate a page/story/frame IDML candidate from PDF text | Generator committed; candidate opened in DesignCraft and frame reflow observed; editing not yet verified |
+| M1.4 | Verify opening, text editing, and reflow in IDML-capable software | Partial pass in DesignCraft: opening/rendering and frame reflow observed; editing and save/reopen pending |
 | M1.5 | Measure visual and structural fidelity against source benchmarks | Pending |
 
 ## Repository layout
