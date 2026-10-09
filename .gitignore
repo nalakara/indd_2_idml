@@ -1,0 +1,24 @@
+# Proprietary benchmark/source files
+*.indd
+*.idml
+*.pdf
+
+# Experiment output; do not accidentally commit data recovered from private benchmarks
+out/
+results/
+recovery-map.json
+recovery-structure.json
+*.audit.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
