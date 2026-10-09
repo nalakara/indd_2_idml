@@ -1,14 +1,19 @@
 # INDD → IDML
 
-**Status: research prototype. Not a working converter.**
+[![Release](https://img.shields.io/github/v/release/nalakara/indd_2_idml)](https://github.com/nalakara/indd_2_idml/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This repository investigates whether an InDesign `.indd` document can be reconstructed into an editable `.idml` package without requiring Adobe InDesign to be installed.
+Native macOS InDesign document (`.indd` / `.indt`) to IDML (`.idml`) batch converter and research framework.
 
-## Project goal
+## Download & Install (macOS)
 
-Explore a PDF-assisted recovery pipeline that aims to produce an editable IDML document while retaining useful visual similarity and text structure—especially multi-paragraph text frames and text reflow.
+Pre-built native macOS application installers are available on the [GitHub Releases Page](https://github.com/nalakara/indd_2_idml/releases/latest):
+- **[`INDD2IDML-1.0.0.dmg`](https://github.com/nalakara/indd_2_idml/releases/download/v1.0.0/INDD2IDML-1.0.0.dmg)** — Standard Drag-and-Drop installer.
+- **[`INDD2IDML-1.0.0.pkg`](https://github.com/nalakara/indd_2_idml/releases/download/v1.0.0/INDD2IDML-1.0.0.pkg)** — 1-click macOS installer package.
 
-The current prototypes are separate research tools. **No end-to-end INDD → IDML conversion of a real source document has been demonstrated or validated.**
+Includes the **SwiftUI macOS Application (`INDD2IDML.app`)** and the standalone **`indd2idml-cli`** terminal utility.
+
+## Research & Project History
 
 ## Milestones
 
